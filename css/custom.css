@@ -1,0 +1,12 @@
+table {
+  margin: 0;
+  width: 100%;
+}
+
+table > thead > tr > th {
+  text-align: left;
+}
+
+table > tbody > tr > td:first-child {
+  width: 25%;
+}

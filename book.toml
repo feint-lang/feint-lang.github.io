@@ -1,0 +1,17 @@
+[book]
+title = "FeInt Documentation"
+description = "Documentation for the FeInt programming language"
+authors = ["Wyatt Baldwin"]
+language = "en"
+multilingual = false
+src = "src"
+create-missing = false
+
+[build]
+build-dir = "docs"
+
+[output.html]
+additional-css = ["css/custom.css"]
+git-repository-url = "https://github.com/feint-lang"
+git-repository-icon = "fa-github"
+edit-url-template = "https://github.com/feint-lang/feint-lang.github.io/edit/main/{path}"
